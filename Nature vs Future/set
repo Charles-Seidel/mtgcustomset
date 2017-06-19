@@ -1,0 +1,765 @@
+﻿mse version: 0.3.8
+game: magic
+stylesheet: new
+set info:
+	title: Nature vs Future
+	description:
+		A set with two main factions. That focused on the old ways nature faction in Green-Red and the grasping new technology White-Blue. Black is a criminal class that floats between the two.
+		Supported color combinations are
+		All mono colors
+		Blue-White
+		Blue-Black
+		White-Black
+		Green-Red
+		Black-Green
+		Black-Red
+		Blue-White-Black
+		Black-Green-Red
+	copyright: 2017
+	set code: NVT
+	set language: English
+	symbol: 
+	border color: rgb(0,0,0)
+	sort multicolor in pairs: yes
+	sort hybrid in pairs: yes
+styling:
+	magic-m15:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-bigtext:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		promo: no
+		overlay: 
+	magic-m15-devoid:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-doublefaced:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-expedition:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-m15-improved:
+		text box mana symbols: magic-mana-large.mse-symbol-font
+		promo: no
+		inverted common symbol: no
+		overlay: 
+	magic-new:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-planeswalker:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-14 20:26:59
+	time modified: 2017-06-18 14:54:57
+	border color: rgb(0,0,0)
+	name: Stereo Virus
+	casting cost: BG
+	image: image1
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule text: Destroy target noncreature nonland permanent unless its controller pays <sym-auto>3</sym-auto>. If the cost is paid, it becomes a creature in addition to its other types with power and toughness equal to its converted mana cost.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-17 19:44:54
+	time modified: 2017-06-18 16:44:04
+	name: Glass Spider
+	casting cost: GG
+	image: image2
+	super type: <word-list-type>Enchantment Creature</word-list-type>
+	sub type: <word-list-race>Spider</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		<kw-A><nospellcheck>Uprising</nospellcheck><atom-reminder-expert> <i-auto>(You may bond this creature with an <error-spelling:en_us:/magic.mse-game/magic-words>unbonded</error-spelling:en_us:/magic.mse-game/magic-words> land when either enters the battlefield. They remain bonded for as long as you control both. When this creature dies, destroy bonded land.)</i-auto></atom-reminder-expert></kw-A><i> </i><error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words>
+		As long as <atom-cardname><nospellcheck>Glass Spider</nospellcheck></atom-cardname> is bonded, it gets +0/+2 and <kw-a><nospellcheck>reach</nospellcheck></kw-a>.
+		<i>A prolific pest, they are noted for their lack of <error-spelling:en_us:/magic.mse-game/magic-words>web-spinning</error-spelling:en_us:/magic.mse-game/magic-words> and diet of windowpanes.</i>
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-17 19:59:18
+	time modified: 2017-06-18 14:57:02
+	name: Heart of Ice
+	casting cost: 1U
+	image: image8
+	super type: <word-list-type>Enchantment </word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rarity: uncommon
+	rule text: When a player casts a spell, sacrifice <atom-cardname><nospellcheck>Heart of Ice</nospellcheck></atom-cardname> and put that spell on the bottom of its owners library.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-17 20:03:59
+	time modified: 2017-06-18 02:04:25
+	name: Unstable Boiler Room
+	casting cost: 1R
+	image: image5
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rarity: common
+	rule text: <sym-auto>2</sym-auto>, Sacrifice Unstable Boiler Room: Deal 4 damage divided as you choose among up to two creatures.<error-spelling> </error-spelling>
+	flavor text: <i-flavor></i-flavor>
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-17 20:06:37
+	time modified: 2017-06-18 15:00:21
+	name: Warning Sign
+	casting cost: 2U
+	image: image6
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rule text: At the beginning of each upkeep, target creature you control and target creature an opponent controls each get -2/-0.
+	flavor text: <i-flavor></i-flavor>
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-17 20:58:29
+	time modified: 2017-06-18 03:41:18
+	name: Lost Cosmonaut
+	casting cost: 2B
+	image: image7
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Zombie</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		<kw-1><nospellcheck>Flying</nospellcheck><atom-reminder-core> <i-auto>(This creature can’t be blocked except by creatures with flying or reach.)</i-auto></atom-reminder-core></kw-1>
+		<i>It rides through space, eternally alternating between states of intense <kw-a><nospellcheck>fear</nospellcheck></kw-a> and intense rage.</i>
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 1
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-17 21:15:38
+	time modified: 2017-06-18 16:55:20
+	card color: land, multicolor
+	name: Curved Vantage
+	image: image9
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land>Structure</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: rare
+	rule text:
+		Curved Vantage enters the battlefield tapped.
+		<sym-auto>T</sym-auto>: Add one mana of any color to your mana pool. Each opponent gains 1 life.
+		<i>The ecology of the Ring contains many wonders not found anywhere else.</i>
+	flavor text: <i-flavor></i-flavor>
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-17 21:25:49
+	time modified: 2017-06-18 15:25:37
+	name: Ring Vantage
+	image: image13
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land>Structure</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: rare
+	rule text:
+		<sym-auto>T</sym-auto>: Add <sym-auto>U</sym-auto> or <sym-auto>B</sym-auto> to your mana pool. Each opponent gains 1 life.
+		<i>The architects of the Ring are lost, but their accomplishment remains.</i>
+	flavor text: <i-flavor></i-flavor>
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: Selesnya is not a supported color combination
+	time created: 2017-06-18 00:15:38
+	time modified: 2017-06-18 15:25:28
+	name: Encompassing Vantage
+	image: image3
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land>Structure</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: rare
+	rule text:
+		<sym-auto>T</sym-auto>: Add <sym-auto>G</sym-auto> or <sym-auto>W</sym-auto> to your mana pool. Each opponent gains 1 life.
+		<i>Navigation is trivial on the Ring.</i>
+	flavor text: <i-flavor></i-flavor>
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 00:25:34
+	time modified: 2017-06-18 15:25:33
+	name: Frozen Vantage
+	image: image10
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land>Structure</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: rare
+	rule text: <sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto> or <sym-auto>U</sym-auto> to your mana pool. Each opponent gains 1 life.<error-spelling> </error-spelling>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 00:37:12
+	time modified: 2017-06-18 20:47:00
+	name: Distorting Hole
+	casting cost: 1WB
+	image: image14
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
+		Enchanted creature can’t attack or block, and its activated abilities can’t be activated. Any player may pay <nosym>2 life for its controller to ignore this effect until end of turn</nosym>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 00:38:55
+	time modified: 2017-06-18 15:25:40
+	name: Spire Vantage
+	image: image12
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land>Structure</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: rare
+	rule text: <sym-auto>T</sym-auto>: Add <sym-auto>B</sym-auto> or <sym-auto>R</sym-auto> to your mana pool. Each opponent gains 1 life.
+	flavor text: <i-flavor></i-flavor>
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 01:01:20
+	time modified: 2017-06-18 15:25:23
+	name: Enclosure Vantage
+	image: image11
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land>Structure</word-list-land><soft> </soft><word-list-land></word-list-land>
+	rarity: rare
+	rule text: <sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto> or <sym-auto>G</sym-auto> to your mana pool. Each opponent gains 1 life.
+	flavor text: <i-flavor></i-flavor>
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 01:12:43
+	time modified: 2017-06-18 15:02:43
+	name: From the Dawn of Civilization
+	casting cost: 2BB
+	image: image25
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rarity: rare
+	rule text: At the beginning of combat on your turn, target creature an opponent controls gets -2/-2 unless its controller pays 2 life.
+	flavor text: <i-flavor></i-flavor>
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-09 22:23:58
+	time modified: 2017-06-18 15:11:08
+	name: Alloy Artist Tinim
+	casting cost: 3WU
+	image: image15
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race>Sphinx</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: mythic rare
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+		Whenever an Aura enters the battlefield under your control, you gain 2 life.
+		<sym-auto>1U</sym-auto>, <sym>T</sym>: Create a blue Aura Enchantment token named Cuffs with “<kw-a><nospellcheck>Enchant <param-name>creature” and “Enchanted creature gets -2/-0</param-name></nospellcheck></kw-a>.”
+		<i>“Here’s a riddle: What blinks with eyes and creates art, but has no brain and has no heart?”</i>
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 4
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	stylesheet: m15-devoid
+	has styling: false
+	notes: 
+	time created: 2017-06-10 02:04:32
+	time modified: 2017-06-18 15:21:20
+	card color: green
+	name: Train Wurm
+	casting cost: 6G
+	image: image21
+	super type: <word-list-type>Enchantment Creature</word-list-type>
+	sub type: <word-list-race>Wurm</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Trample</nospellcheck></kw-a>, <kw-a><nospellcheck>reach</nospellcheck></kw-a>
+		<i>Some <kw-a><nospellcheck>fear</nospellcheck></kw-a> the land will never truly be rid of the haunted rails it stalks, nor the dreaded air that carries the sound of its horn without mercy. Even more <kw-a><nospellcheck>fear</nospellcheck></kw-a> the idea that, were it allowed to roam free, it would cover the world in unforgiving, hellish tracks.</i>
+	flavor text: <i-flavor></i-flavor>
+	power: 6
+	toughness: 6
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 02:10:32
+	time modified: 2017-06-18 18:36:38
+	name: The Most Dangerous Game
+	casting cost: 5RR
+	image: image26
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: rare
+	rule text: Each player writes a number on a piece of paper and hides that number from other players, then all players reveal their numbers simultaneously. Each player loses life equal to his or her written number. The player who revealed the lowest number then loses half of his or her life, rounded up. If two or more players are tied for the smallest number, each player loses half of his or her life, rounded up. <error-spelling><i>(</error-spelling>	If you attempt to halve a negative life total, you halve 0. This means that the life total stays the same. A life total of <error-spelling:en_us:/magic.mse-game/magic-words>-10</error-spelling:en_us:/magic.mse-game/magic-words> would remain <error-spelling:en_us:/magic.mse-game/magic-words>-10</error-spelling:en_us:/magic.mse-game/magic-words>.)</i>
+	flavor text: <i-flavor></i-flavor>
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 02:49:53
+	time modified: 2017-06-18 18:32:51
+	name: Goblin Bombardier
+	casting cost: R
+	image: image19
+	super type: <word-list-type>Enchantment Creature</word-list-type>
+	sub type: <word-list-race>Goblin</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		<kw-A><nospellcheck>Uprising</nospellcheck><atom-reminder-expert> <i-auto>(You may bond this creature with an <error-spelling:en_us:/magic.mse-game/magic-words>unbonded</error-spelling:en_us:/magic.mse-game/magic-words> land when either enters the battlefield. They remain bonded for as long as you control both. When this creature dies, destroy bonded land.)</i-auto></atom-reminder-expert></kw-A>
+		As long as <atom-cardname><nospellcheck>Goblin Bombardier</nospellcheck></atom-cardname> is bonded, it gets +1/+0 and <kw-a><nospellcheck>haste</nospellcheck></kw-a>.<error-spelling>
+		</error-spelling>
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 03:04:33
+	time modified: 2017-06-18 18:51:05
+	name: Chittering Crawler
+	casting cost: G
+	image: image4
+	super type: <word-list-type>Enchantment Creature</word-list-type>
+	sub type: <word-list-race>Insect</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		<kw-A><nospellcheck>Uprising</nospellcheck><atom-reminder-expert> <i-auto>(You may bond this creature with an <error-spelling:en_us:/magic.mse-game/magic-words>unbonded</error-spelling:en_us:/magic.mse-game/magic-words> land when either enters the battlefield. They remain bonded for as long as you control both. When this creature dies, destroy bonded land.)</i-auto></atom-reminder-expert></kw-A>
+		As long as <atom-cardname><nospellcheck>Chittering Crawler</nospellcheck></atom-cardname> is bonded, it has “<sym-auto>T</sym-auto>: Add one mana of any color to your mana pool that the bonded land could produce.”
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 03:07:51
+	time modified: 2017-06-18 18:33:43
+	name: Holy Hive Servant
+	casting cost: G
+	image: image20
+	super type: <word-list-type>Enchantment Creature</word-list-type>
+	sub type: <word-list-race>Insect</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		<kw-A><nospellcheck>Uprising</nospellcheck><atom-reminder-expert> <i-auto>(You may bond this creature with an <error-spelling:en_us:/magic.mse-game/magic-words>unbonded</error-spelling:en_us:/magic.mse-game/magic-words> land when either enters the battlefield. They remain bonded for as long as you control both. When this creature dies, destroy bonded land.)</i-auto></atom-reminder-expert></kw-A><i>
+		</i>As long as <atom-cardname><nospellcheck>Holy Hive Servant</nospellcheck></atom-cardname> is bonded, it gets +0/+1 and <kw-a><nospellcheck>deathtouch</nospellcheck></kw-a>.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 03:18:26
+	time modified: 2017-06-18 18:38:45
+	name: Crop Cultivator
+	casting cost: 2G
+	image: image29
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Insect</word-list-race> <word-list-class>Shaman</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		<kw-A><nospellcheck>Uprising</nospellcheck><atom-reminder-expert> <i-auto>(You may bond this creature with an <error-spelling:en_us:/magic.mse-game/magic-words>unbonded</error-spelling:en_us:/magic.mse-game/magic-words> land when either enters the battlefield. They remain bonded for as long as you control both. When this creature dies, destroy bonded land.)</i-auto></atom-reminder-expert></kw-A><error-spelling> </error-spelling>
+		As long as <atom-cardname><nospellcheck>Crop Cultivator</nospellcheck></atom-cardname> is bonded, bonded land gets “<sym-auto>T</sym-auto>: Add two mana of any one color to your mana pool.”
+		<sym-auto>T</sym-auto>: Add one mana of any color to your mana pool.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 4
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 03:23:35
+	time modified: 2017-06-18 18:35:11
+	name: Studier of the Ancients
+	casting cost: W
+	image: image23
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Dwarf</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: <kw-A><i-auto><nospellcheck>Enchantcraft</nospellcheck></i-auto></kw-A> — Whenever a creature enters the battlefield, if you control 3 or more enchantments, you gain 1 life.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 03:25:08
+	time modified: 2017-06-18 18:37:35
+	name: Wholehearted Duelist
+	casting cost: 2WW
+	image: image27
+	super type: <word-list-type>Enchantment Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: <kw-A><i-auto><nospellcheck>Enchantcraft</nospellcheck></i-auto></kw-A> — <atom-cardname><nospellcheck>Wholehearted Duelist</nospellcheck></atom-cardname> has <kw-a><nospellcheck>double strike</nospellcheck></kw-a> as long as you control three or more enchantments.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 03:30:42
+	time modified: 2017-06-18 18:34:38
+	name: Spell Smasher
+	casting cost: 2R
+	image: image22
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Goblin</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		<kw-A><nospellcheck>Uprising</nospellcheck><atom-reminder-expert> <i-auto>(You may bond this creature with an <error-spelling:en_us:/magic.mse-game/magic-words>unbonded</error-spelling:en_us:/magic.mse-game/magic-words> land when either enters the battlefield. They remain bonded for as long as you control both. When this creature dies, destroy bonded land.)</i-auto></atom-reminder-expert></kw-A><i><error-spelling> </error-spelling>
+		</i>As long as <atom-cardname><nospellcheck>Spell Smasher</nospellcheck></atom-cardname> is bonded, it gets +2/+2.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 03:35:03
+	time modified: 2017-06-18 18:49:48
+	name: Kamal
+	casting cost: 2RR
+	image: image34
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: rare
+	rule text:
+		<kw-A><nospellcheck>Uprising</nospellcheck><atom-reminder-expert> <i-auto>(You may bond this creature with an <error-spelling:en_us:/magic.mse-game/magic-words>unbonded</error-spelling:en_us:/magic.mse-game/magic-words> land when either enters the battlefield. They remain bonded for as long as you control both. When this creature dies, destroy bonded land.)</i-auto></atom-reminder-expert></kw-A><error-spelling> </error-spelling>
+		As long as <error-spelling:en_us:/magic.mse-game/magic-words>Kamal</error-spelling:en_us:/magic.mse-game/magic-words> is bonded, it has “<sym-auto>T</sym-auto>: <atom-cardname><nospellcheck>Kamal</nospellcheck></atom-cardname> deals 3 damage to target creature or player.”
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 03:36:54
+	time modified: 2017-06-18 18:37:58
+	name: Bouncer
+	casting cost: 3U
+	image: image28
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Drake</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: <kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+	flavor text: <i-flavor><error-spelling:en_us>Enchantcraft</error-spelling:en_us> — </i>When Bouncer enters the battlefield, return a creature you control to your hand unless you control 3 or more enchantments.<i></i-flavor>
+	power: 3
+	toughness: 4
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 03:42:21
+	time modified: 2017-06-18 20:44:54
+	name: Flanker
+	casting cost: 2B
+	image: image18
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Demon</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: <kw-A><nospellcheck>Stare Down</nospellcheck><atom-reminder-expert> <i-auto>(Whenever a creature blocks this creature, the blocking creature gets -1/-1 until end of turn unless its controller pays 1 life.)</i-auto></atom-reminder-expert></kw-A>
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 2
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 15:26:03
+	time modified: 2017-06-18 16:53:14
+	name: Tainted Field
+	image: 
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rarity: uncommon
+	rule text:
+		<sym-auto>T</sym-auto>: Add <sym-auto>1</sym-auto> to your mana pool
+		<sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto> or <sym-auto>B</sym-auto> to your mana pool. Activate this ability only if you control a swamp.
+	flavor text: <i-flavor></i-flavor>
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 15:26:03
+	time modified: 2017-06-18 16:53:16
+	name: Tainted Isle
+	image: 
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rarity: uncommon
+	rule text:
+		<sym-auto>T</sym-auto>: Add <sym-auto>1</sym-auto> to your mana pool
+		<sym-auto>T</sym-auto>: Add <sym-auto>U</sym-auto> or <sym-auto>B</sym-auto> to your mana pool. Activate this ability only if you control a swamp.
+	flavor text: <i-flavor></i-flavor>
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 15:26:03
+	time modified: 2017-06-18 16:53:18
+	name: Tainted Peak
+	image: 
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rarity: uncommon
+	rule text:
+		<sym-auto>T</sym-auto>: Add <sym-auto>1</sym-auto> to your mana pool
+		<sym-auto>T</sym-auto>: Add <sym-auto>B</sym-auto> or <sym-auto>R</sym-auto> to your mana pool. Activate this ability only if you control a swamp.
+	flavor text: <i-flavor></i-flavor>
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 15:26:03
+	time modified: 2017-06-18 16:53:11
+	name: Tainted Wood
+	image: 
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rarity: uncommon
+	rule text:
+		<sym-auto>T</sym-auto>: Add <sym-auto>1</sym-auto> to your mana pool
+		<sym-auto>T</sym-auto>: Add <sym-auto>B</sym-auto> or <sym-auto>G</sym-auto> to your mana pool. Activate this ability only if you control a swamp.
+	flavor text: <i-flavor></i-flavor>
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 15:49:45
+	time modified: 2017-06-18 18:35:50
+	name: Superior Knowledge
+	casting cost: 1UU
+	image: image24
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text:
+		<kw-A><i-auto><nospellcheck>Enchantcraft</nospellcheck></i-auto></kw-A> — <atom-cardname><nospellcheck>Superior Knowledge</nospellcheck></atom-cardname> costs <sym-auto>1</sym-auto> less to cast if you control 3 or more enchantments.
+		Counter target spell.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 2017
+	image 2: 
+	copyright 2: 2017
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 15:51:47
+	time modified: 2017-06-18 18:29:56
+	name: Enchantress
+	casting cost: 1W
+	image: image17
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Shaman</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: <kw-A><i-auto><nospellcheck>Enchantcraft</nospellcheck></i-auto></kw-A> — Whenever an enchantment enters the battlefield under your control, if you control 3 or more enchantments, you may draw a card.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	copyright: 2017
+	image 2: 
+	copyright 2: 2017
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 15:53:33
+	time modified: 2017-06-18 18:53:15
+	name: Estate Cultivator
+	casting cost: 1G
+	image: image36
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Insect</word-list-race> <word-list-class>Scout</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		<kw-A><nospellcheck>Uprising</nospellcheck><atom-reminder-expert> <i-auto>(You may bond this creature with an <error-spelling:en_us:/magic.mse-game/magic-words>unbonded</error-spelling:en_us:/magic.mse-game/magic-words> land when either enters the battlefield. They remain bonded for as long as you control both. When this creature dies, destroy bonded land.)</i-auto></atom-reminder-expert></kw-A>
+		When <atom-cardname><nospellcheck>Estate Cultivator</nospellcheck></atom-cardname> dies, if it was bonded, you may search your library for 2 basic lands and put them onto the battlefield tapped.
+		<sym-auto>1GG</sym-auto>, Sacrifice <atom-cardname><nospellcheck>Estate Cultivator</nospellcheck></atom-cardname>: Draw a card.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 1
+	card code text: 
+	copyright: 2017
+	image 2: 
+	copyright 2: 2017
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 17:49:21
+	time modified: 2017-06-18 18:47:17
+	name: Bottle of Champagne
+	casting cost: 1
+	image: image33
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rule text: <sym-auto>W</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice Bottle of Champagne: Choose one: Target creature gains <kw-a><nospellcheck>first strike</nospellcheck></kw-a> until end of turn; or target creature gains <kw-a><nospellcheck>flying</nospellcheck></kw-a> until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	copyright: 2017
+	image 2: 
+	copyright 2: 2017
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 17:52:48
+	time modified: 2017-06-18 18:47:06
+	name: Bottle of Bordeaux
+	casting cost: 1
+	image: image32
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rule text: <sym-auto>B</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice Bottle of Bordeaux: Choose one: Target creature gains <kw-a><nospellcheck>deathtouch</nospellcheck></kw-a> until end of turn; or target creature gains <kw-a><nospellcheck>menace</nospellcheck></kw-a> until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	copyright: 2017
+	image 2: 
+	copyright 2: 2017
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 17:54:36
+	time modified: 2017-06-18 18:47:40
+	name: Bottle of Merlot
+	casting cost: 1
+	image: image35
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rule text: <sym-auto>R</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice Bottle of <error-spelling:en_us:/magic.mse-game/magic-words>Merlot</error-spelling:en_us:/magic.mse-game/magic-words>: Choose one: Target creature gains <kw-a><nospellcheck>haste</nospellcheck></kw-a> until end of turn; or two target creatures <kw-A><nospellcheck>fight</nospellcheck>.<atom-reminder-action> <i-auto>(Each deals damage equal to its power to the other.)</i-auto></atom-reminder-action></kw-A>
+	flavor text: <i-flavor></i-flavor>
+	copyright: 2017
+	image 2: 
+	copyright 2: 2017
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 17:55:32
+	time modified: 2017-06-18 18:47:53
+	name: Bottle of Cabernet
+	casting cost: 1
+	image: image30
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rule text: <sym-auto>G</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice Bottle of Cabernet: Choose one: Target creature gains <kw-a><nospellcheck>hexproof</nospellcheck></kw-a> until end of turn; or target creature gains <kw-a><nospellcheck>trample</nospellcheck></kw-a> until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	copyright: 2017
+	image 2: 
+	copyright 2: 2017
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 17:59:03
+	time modified: 2017-06-18 18:46:46
+	name: Bottle of Chardonnay
+	casting cost: 1
+	image: image31
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rule text: <sym-auto>UU</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice Bottle of Chardonnay: Choose one: Draw a card; or counter target activated or triggered ability.
+	flavor text: <i-flavor></i-flavor>
+	copyright: 2017
+	image 2: 
+	copyright 2: 2017
+keyword:
+	keyword: Uprising
+	match: Uprising
+	reminder: You may bond this creature with an unbonded land when either enters the battlefield. They remain bonded for as long as you control both. When this creature dies, destroy bonded land.
+	rules: 
+	mode: expert
+keyword:
+	keyword: Enchantcraft
+	match: Enchantcraft
+	reminder: 
+	rules: Enchantcraft — [effect] as long as you control three or more enchantments.
+	mode: pseudo
+keyword:
+	keyword: Stare Down
+	match: Stare Down
+	reminder: Whenever a creature blocks this creature, the blocking creature gets -1/-1 until end of turn unless its controller pays 1 life.
+	rules: 
+	mode: expert
+version control:
+	type: none
+apprentice code: 
