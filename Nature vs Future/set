@@ -16,8 +16,12 @@ set info:
 		Blue-White-Black
 		Black-Green-Red
 	copyright: 2017
+	set code: NVT
+	set language: English
 	symbol: 
 	border color: rgb(0,0,0)
+	sort multicolor in pairs: yes
+	sort hybrid in pairs: yes
 styling:
 	magic-m15:
 		text box mana symbols: magic-mana-small.mse-symbol-font
@@ -60,6 +64,7 @@ card:
 	rarity: uncommon
 	rule text: Destroy target noncreature nonland permanent unless its controller pays <sym-auto>3</sym-auto>. If the cost is paid, it becomes a creature in addition to its other types with power and toughness equal to its converted mana cost.
 	flavor text: <i-flavor></i-flavor>
+	card code text: 
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -80,6 +85,7 @@ card:
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 2
+	card code text: 
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -87,15 +93,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2017-06-17 19:59:18
-	time modified: 2017-06-18 14:57:02
+	time modified: 2017-06-18 21:19:53
 	name: Heart of Ice
 	casting cost: 1U
 	image: image8
 	super type: <word-list-type>Enchantment </word-list-type>
 	sub type: <word-list-enchantment></word-list-enchantment>
 	rarity: uncommon
-	rule text: When a player casts a spell, sacrifice <atom-cardname><nospellcheck>Heart of Ice</nospellcheck></atom-cardname> and put that spell on the bottom of its owners library.
+	rule text: When a player casts a spell, you may sacrifice <atom-cardname><nospellcheck>Heart of Ice</nospellcheck></atom-cardname>. When you do, put that spell on the bottom of its owner’s library.
 	flavor text: <i-flavor></i-flavor>
+	card code text: 
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -134,11 +141,11 @@ card:
 	has styling: false
 	notes: 
 	time created: 2017-06-17 20:58:29
-	time modified: 2017-06-18 03:41:18
+	time modified: 2017-06-18 21:25:36
 	name: Lost Cosmonaut
 	casting cost: 2B
 	image: image7
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Zombie</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rule text:
 		<kw-1><nospellcheck>Flying</nospellcheck><atom-reminder-core> <i-auto>(This creature can’t be blocked except by creatures with flying or reach.)</i-auto></atom-reminder-core></kw-1>
@@ -153,12 +160,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2017-06-17 21:15:38
-	time modified: 2017-06-18 16:55:20
+	time modified: 2017-06-18 21:06:20
 	card color: land, multicolor
 	name: Curved Vantage
 	image: image9
 	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land>Structure</word-list-land><soft> </soft><word-list-land></word-list-land>
+	sub type: <word-list-land></word-list-land>
 	rarity: rare
 	rule text:
 		Curved Vantage enters the battlefield tapped.
@@ -172,11 +179,11 @@ card:
 	has styling: false
 	notes: 
 	time created: 2017-06-17 21:25:49
-	time modified: 2017-06-18 15:25:37
+	time modified: 2017-06-18 21:06:32
 	name: Ring Vantage
 	image: image13
 	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land>Structure</word-list-land><soft> </soft><word-list-land></word-list-land>
+	sub type: <word-list-land></word-list-land>
 	rarity: rare
 	rule text:
 		<sym-auto>T</sym-auto>: Add <sym-auto>U</sym-auto> or <sym-auto>B</sym-auto> to your mana pool. Each opponent gains 1 life.
@@ -189,14 +196,14 @@ card:
 	has styling: false
 	notes: Selesnya is not a supported color combination
 	time created: 2017-06-18 00:15:38
-	time modified: 2017-06-18 15:25:28
+	time modified: 2017-06-18 21:06:27
 	name: Encompassing Vantage
 	image: image3
 	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land>Structure</word-list-land><soft> </soft><word-list-land></word-list-land>
+	sub type: <word-list-land></word-list-land>
 	rarity: rare
 	rule text:
-		<sym-auto>T</sym-auto>: Add <sym-auto>G</sym-auto> or <sym-auto>W</sym-auto> to your mana pool. Each opponent gains 1 life.
+		<sym-auto>T</sym-auto>: Add <sym-auto>G</sym-auto> or <sym-auto>B</sym-auto> to your mana pool. Each opponent gains 1 life.
 		<i>Navigation is trivial on the Ring.</i>
 	flavor text: <i-flavor></i-flavor>
 	copyright: 
@@ -206,14 +213,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2017-06-18 00:25:34
-	time modified: 2017-06-18 15:25:33
+	time modified: 2017-06-18 21:06:30
 	name: Frozen Vantage
 	image: image10
 	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land>Structure</word-list-land><soft> </soft><word-list-land></word-list-land>
+	sub type: <word-list-land></word-list-land>
 	rarity: rare
 	rule text: <sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto> or <sym-auto>U</sym-auto> to your mana pool. Each opponent gains 1 life.<error-spelling> </error-spelling>
 	flavor text: <i-flavor></i-flavor>
+	card code text: 
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -221,7 +229,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2017-06-18 00:37:12
-	time modified: 2017-06-18 20:47:00
+	time modified: 2017-06-18 15:22:43
 	name: Distorting Hole
 	casting cost: 1WB
 	image: image14
@@ -230,8 +238,9 @@ card:
 	rarity: uncommon
 	rule text:
 		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
-		Enchanted creature can’t attack or block, and its activated abilities can’t be activated. Any player may pay <nosym>2 life for its controller to ignore this effect until end of turn</nosym>
+		Enchanted creature can’t attack or block, and its activated abilities can’t be activated. Any player may pay <nosym>2 life for its controller to ignore this ability till end of turn</nosym>
 	flavor text: <i-flavor></i-flavor>
+	card code text: 
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -239,11 +248,11 @@ card:
 	has styling: false
 	notes: 
 	time created: 2017-06-18 00:38:55
-	time modified: 2017-06-18 15:25:40
+	time modified: 2017-06-18 21:06:36
 	name: Spire Vantage
 	image: image12
 	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land>Structure</word-list-land><soft> </soft><word-list-land></word-list-land>
+	sub type: <word-list-land></word-list-land>
 	rarity: rare
 	rule text: <sym-auto>T</sym-auto>: Add <sym-auto>B</sym-auto> or <sym-auto>R</sym-auto> to your mana pool. Each opponent gains 1 life.
 	flavor text: <i-flavor></i-flavor>
@@ -254,11 +263,11 @@ card:
 	has styling: false
 	notes: 
 	time created: 2017-06-18 01:01:20
-	time modified: 2017-06-18 15:25:23
+	time modified: 2017-06-18 21:06:24
 	name: Enclosure Vantage
 	image: image11
 	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land>Structure</word-list-land><soft> </soft><word-list-land></word-list-land>
+	sub type: <word-list-land></word-list-land>
 	rarity: rare
 	rule text: <sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto> or <sym-auto>G</sym-auto> to your mana pool. Each opponent gains 1 life.
 	flavor text: <i-flavor></i-flavor>
@@ -285,13 +294,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2017-06-09 22:23:58
-	time modified: 2017-06-18 15:11:08
+	time modified: 2017-06-18 20:42:32
 	name: Alloy Artist Tinim
 	casting cost: 3WU
 	image: image15
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Sphinx</word-list-race><soft> </soft><word-list-class></word-list-class>
-	rarity: mythic rare
+	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
 		Whenever an Aura enters the battlefield under your control, you gain 2 life.
@@ -300,10 +309,12 @@ card:
 	flavor text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 4
+	card code text: 
 	copyright: 
 	image 2: 
 	copyright 2: 
 card:
+	stylesheet: m15-devoid
 	has styling: false
 	notes: 
 	time created: 2017-06-10 02:04:32
@@ -321,6 +332,7 @@ card:
 	flavor text: <i-flavor></i-flavor>
 	power: 6
 	toughness: 6
+	card code text: 
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -395,6 +407,7 @@ card:
 	flavor text: <i-flavor></i-flavor>
 	power: 1
 	toughness: 1
+	card code text: 
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -415,6 +428,7 @@ card:
 	flavor text: <i-flavor></i-flavor>
 	power: 1
 	toughness: 4
+	card code text: 
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -432,6 +446,7 @@ card:
 	flavor text: <i-flavor></i-flavor>
 	power: 1
 	toughness: 1
+	card code text: 
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -439,16 +454,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2017-06-18 03:25:08
-	time modified: 2017-06-18 18:37:35
+	time modified: 2017-06-18 21:36:58
 	name: Wholehearted Duelist
 	casting cost: 2WW
 	image: image27
-	super type: <word-list-type>Enchantment Creature</word-list-type>
+	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text: <kw-A><i-auto><nospellcheck>Enchantcraft</nospellcheck></i-auto></kw-A> — <atom-cardname><nospellcheck>Wholehearted Duelist</nospellcheck></atom-cardname> has <kw-a><nospellcheck>double strike</nospellcheck></kw-a> as long as you control three or more enchantments.
 	flavor text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 2
+	card code text: 
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -475,8 +491,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2017-06-18 03:35:03
-	time modified: 2017-06-18 21:44:59
-	name: Small Kamal
+	time modified: 2017-06-18 18:49:48
+	name: Kamal
 	casting cost: 2RR
 	image: image34
 	super type: <word-list-type>Creature</word-list-type>
@@ -484,10 +500,11 @@ card:
 	rarity: rare
 	rule text:
 		<kw-A><nospellcheck>Uprising</nospellcheck><atom-reminder-expert> <i-auto>(You may bond this creature with an <error-spelling:en_us:/magic.mse-game/magic-words>unbonded</error-spelling:en_us:/magic.mse-game/magic-words> land when either enters the battlefield. They remain bonded for as long as you control both. When this creature dies, destroy bonded land.)</i-auto></atom-reminder-expert></kw-A><error-spelling> </error-spelling>
-		As long as <atom-cardname><nospellcheck>Small Kamal</nospellcheck></atom-cardname> is bonded, it has “<sym-auto>T</sym-auto>: <atom-cardname><nospellcheck>Small Kamal</nospellcheck></atom-cardname> deals 3 damage to target creature or player.”
+		As long as <error-spelling:en_us:/magic.mse-game/magic-words>Kamal</error-spelling:en_us:/magic.mse-game/magic-words> is bonded, it has “<sym-auto>T</sym-auto>: <atom-cardname><nospellcheck>Kamal</nospellcheck></atom-cardname> deals 3 damage to target creature or player.”
 	flavor text: <i-flavor></i-flavor>
 	power: 4
 	toughness: 1
+	card code text: 
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -495,14 +512,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2017-06-18 03:36:54
-	time modified: 2017-06-18 18:37:58
+	time modified: 2017-06-18 21:19:20
 	name: Bouncer
 	casting cost: 3U
 	image: image28
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Drake</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rule text: <kw-a><nospellcheck>Flying</nospellcheck></kw-a>
-	flavor text: <i-flavor><error-spelling:en_us>Enchantcraft</error-spelling:en_us> — </i>When Bouncer enters the battlefield, return a creature you control to your hand unless you control 3 or more enchantments.<i></i-flavor>
+	flavor text: <i-flavor><error-spelling:en_us>Enchantcraft</error-spelling:en_us> — </i>When Bouncer enters the battlefield, return a creature you control to your hand unless you control three or more enchantments.<i></i-flavor>
 	power: 3
 	toughness: 4
 	copyright: 
@@ -512,84 +529,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2017-06-18 03:42:21
-	time modified: 2017-06-18 20:44:54
-	name: Flanker
+	time modified: 2017-06-18 21:23:09
+	name: Cunning Saboteur
 	casting cost: 2B
 	image: image18
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Demon</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rule text: <kw-A><nospellcheck>Stare Down</nospellcheck><atom-reminder-expert> <i-auto>(Whenever a creature blocks this creature, the blocking creature gets -1/-1 until end of turn unless its controller pays 1 life.)</i-auto></atom-reminder-expert></kw-A>
+	rule text: Stare down <i-auto>(Whenever a creature blocks this creature, the blocking creature gets -1/-1 until end of turn unless its controller pays 1 life.)</i-auto>
 	flavor text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 2
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2017-06-18 15:26:03
-	time modified: 2017-06-18 16:53:14
-	name: Tainted Field
-	image: 
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
-	rule text:
-		<sym-auto>T</sym-auto>: Add <sym-auto>1</sym-auto> to your mana pool
-		<sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto> or <sym-auto>B</sym-auto> to your mana pool. Activate this ability only if you control a swamp.
-	flavor text: <i-flavor></i-flavor>
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2017-06-18 15:26:03
-	time modified: 2017-06-18 16:53:16
-	name: Tainted Isle
-	image: 
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
-	rule text:
-		<sym-auto>T</sym-auto>: Add <sym-auto>1</sym-auto> to your mana pool
-		<sym-auto>T</sym-auto>: Add <sym-auto>U</sym-auto> or <sym-auto>B</sym-auto> to your mana pool. Activate this ability only if you control a swamp.
-	flavor text: <i-flavor></i-flavor>
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2017-06-18 15:26:03
-	time modified: 2017-06-18 16:53:18
-	name: Tainted Peak
-	image: 
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
-	rule text:
-		<sym-auto>T</sym-auto>: Add <sym-auto>1</sym-auto> to your mana pool
-		<sym-auto>T</sym-auto>: Add <sym-auto>B</sym-auto> or <sym-auto>R</sym-auto> to your mana pool. Activate this ability only if you control a swamp.
-	flavor text: <i-flavor></i-flavor>
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2017-06-18 15:26:03
-	time modified: 2017-06-18 16:53:11
-	name: Tainted Wood
-	image: 
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
-	rule text:
-		<sym-auto>T</sym-auto>: Add <sym-auto>1</sym-auto> to your mana pool
-		<sym-auto>T</sym-auto>: Add <sym-auto>B</sym-auto> or <sym-auto>G</sym-auto> to your mana pool. Activate this ability only if you control a swamp.
-	flavor text: <i-flavor></i-flavor>
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -607,6 +556,7 @@ card:
 		<kw-A><i-auto><nospellcheck>Enchantcraft</nospellcheck></i-auto></kw-A> — <atom-cardname><nospellcheck>Superior Knowledge</nospellcheck></atom-cardname> costs <sym-auto>1</sym-auto> less to cast if you control 3 or more enchantments.
 		Counter target spell.
 	flavor text: <i-flavor></i-flavor>
+	card code text: 
 	copyright: 2017
 	image 2: 
 	copyright 2: 2017
@@ -614,17 +564,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2017-06-18 15:51:47
-	time modified: 2017-06-18 21:43:38
+	time modified: 2017-06-18 18:29:56
 	name: Enchantress
 	casting cost: 1W
 	image: image17
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Shaman</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: uncommon
 	rule text: <kw-A><i-auto><nospellcheck>Enchantcraft</nospellcheck></i-auto></kw-A> — Whenever an enchantment enters the battlefield under your control, if you control 3 or more enchantments, you may draw a card.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 2
+	card code text: 
 	copyright: 2017
 	image 2: 
 	copyright 2: 2017
@@ -645,6 +595,7 @@ card:
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 1
+	card code text: 
 	copyright: 2017
 	image 2: 
 	copyright 2: 2017
@@ -667,13 +618,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2017-06-18 17:52:48
-	time modified: 2017-06-18 18:47:06
+	time modified: 2017-06-18 21:13:40
 	name: Bottle of Bordeaux
 	casting cost: 1
 	image: image32
 	super type: <word-list-type>Artifact</word-list-type>
 	sub type: <word-list-artifact></word-list-artifact>
-	rule text: <sym-auto>B</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice Bottle of Bordeaux: Choose one: Target creature gains <kw-a><nospellcheck>deathtouch</nospellcheck></kw-a> until end of turn; or target creature gains menace until end of turn.
+	rule text: <sym-auto>B</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice Bottle of Bordeaux: Choose one: Target creature gains <kw-a><nospellcheck>deathtouch</nospellcheck></kw-a> until end of turn; or target creature gains <kw-a><nospellcheck>menace</nospellcheck></kw-a> until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	copyright: 2017
 	image 2: 
@@ -688,7 +639,7 @@ card:
 	image: image35
 	super type: <word-list-type>Artifact</word-list-type>
 	sub type: <word-list-artifact></word-list-artifact>
-	rule text: <sym-auto>R</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice Bottle of <error-spelling:en_us:/magic.mse-game/magic-words>Merlot</error-spelling:en_us:/magic.mse-game/magic-words>: Choose one: Target creature gains <kw-a><nospellcheck>haste</nospellcheck></kw-a> until end of turn; or two target creatures fight.
+	rule text: <sym-auto>R</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice Bottle of <error-spelling:en_us:/magic.mse-game/magic-words>Merlot</error-spelling:en_us:/magic.mse-game/magic-words>: Choose one: Target creature gains <kw-a><nospellcheck>haste</nospellcheck></kw-a> until end of turn; or two target creatures <kw-A><nospellcheck>fight</nospellcheck>.<atom-reminder-action> <i-auto>(Each deals damage equal to its power to the other.)</i-auto></atom-reminder-action></kw-A>
 	flavor text: <i-flavor></i-flavor>
 	copyright: 2017
 	image 2: 
@@ -703,7 +654,7 @@ card:
 	image: image30
 	super type: <word-list-type>Artifact</word-list-type>
 	sub type: <word-list-artifact></word-list-artifact>
-	rule text: <sym-auto>G</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice Bottle of Cabernet: Choose one: Target creature gains <error-spelling:en_us:/magic.mse-game/magic-words>hexproof</error-spelling:en_us:/magic.mse-game/magic-words> until end of turn; or target creature gains <kw-a><nospellcheck>trample</nospellcheck></kw-a> until end of turn.
+	rule text: <sym-auto>G</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice Bottle of Cabernet: Choose one: Target creature gains <kw-a><nospellcheck>hexproof</nospellcheck></kw-a> until end of turn; or target creature gains <kw-a><nospellcheck>trample</nospellcheck></kw-a> until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	copyright: 2017
 	image 2: 
@@ -723,6 +674,138 @@ card:
 	copyright: 2017
 	image 2: 
 	copyright 2: 2017
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 20:46:44
+	time modified: 2017-06-18 21:12:01
+	name: Primitivist
+	casting cost: 2G
+	image: image16
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Insect</word-list-race> <word-list-class>Rebel</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: Sacrifice <atom-cardname><nospellcheck>Primitivist</nospellcheck></atom-cardname>: Destroy target enchantment.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
+	copyright: 2017
+	image 2: 
+	copyright 2: 2017
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 21:12:17
+	time modified: 2017-06-18 21:31:39
+	name: Sezann Guard
+	casting cost: W
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Advisor</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: <i><kw-A><i-auto><nospellcheck>Enchantcraft</nospellcheck></i-auto></kw-A> <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> </i><sym>T</sym>:<i> </i>Tap another target creature. Activate this ability only if you control three or more enchantments.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	copyright: 2017
+	image 2: 
+	copyright 2: 2017
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 21:14:34
+	time modified: 2017-06-18 21:24:13
+	name: Dread Byproduct
+	casting cost: B
+	image: 
+	super type: <word-list-type>Enchantment Creature</word-list-type>
+	sub type: <word-list-race>Zombie</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Stare down <i-auto>(Whenever a creature blocks this creature, the blocking creature gets -1/-1 until end of turn unless its controller pays 1 life.)</i-auto>
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	copyright: 2017
+	image 2: 
+	copyright 2: 2017
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 21:25:12
+	time modified: 2017-06-18 21:31:32
+	name: Sezann Bureaucrat
+	casting cost: 1U
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Vedalken</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Return two enchantments to your hand: Target creature can’t be blocked this turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 1
+	copyright: 2017
+	image 2: 
+	copyright 2: 2017
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 21:31:52
+	time modified: 2017-06-18 21:36:39
+	name: Bio-Information Analyst
+	casting cost: 4W
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Vedalken</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: <kw-A><i-auto><nospellcheck>Enchantcraft</nospellcheck></i-auto></kw-A> <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> At the beginning of your upkeep, if you control three or more enchantments, you may gain 1 life.<error-spelling> </error-spelling>
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 5
+	copyright: 2017
+	image 2: 
+	copyright 2: 2017
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 21:37:28
+	time modified: 2017-06-18 21:46:29
+	name: Visionary of the East
+	casting cost: GG
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Insect</word-list-race> <word-list-class>Shaman</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: Sacrifice Visionary of Past and Future: Enchantments you control have <kw-a><nospellcheck>hexproof</nospellcheck></kw-a> until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	copyright: 2017
+	image 2: 
+	copyright 2: 2017
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 21:42:57
+	time modified: 2017-06-18 21:46:40
+	name: Visionary of the North
+	casting cost: UU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Vedalken</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: Sacrifice Visionary of the Future: Exile target enchantment you control, then return it to the battlefield under your control.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	copyright: 2017
+	image 2: 
+	copyright 2: 2017
+card:
+	has styling: false
+	notes: 
+	time created: 2017-06-18 21:45:55
+	time modified: 2017-06-18 22:02:05
+	name: Visionary of the South
+	casting cost: RR
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Goblin</word-list-race><soft> </soft><word-list-class></word-list-class>
+	copyright: 2017
+	image 2: 
+	copyright 2: 2017
 keyword:
 	keyword: Uprising
 	match: Uprising
@@ -736,8 +819,8 @@ keyword:
 	rules: Enchantcraft — [effect] as long as you control three or more enchantments.
 	mode: pseudo
 keyword:
-	keyword: Stare Down
-	match: Stare Down
+	keyword: Black Flanking
+	match: Black Flanking
 	reminder: Whenever a creature blocks this creature, the blocking creature gets -1/-1 until end of turn unless its controller pays 1 life.
 	rules: 
 	mode: expert
